@@ -1,20 +1,14 @@
 package id.sch.smktelkom_mlg.tugas01.xiirpl3005.dataanggotatsbc;
 
-import android.support.annotation.IdRes;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Spinner;
 import android.widget.TextView;
-
-import java.util.ArrayList;
-import java.util.Arrays;
 
 public class MainActivity extends AppCompatActivity {
     EditText isinama;
@@ -83,7 +77,6 @@ public class MainActivity extends AppCompatActivity {
             tvHasil.setText("Name        : " + nama + "\n" + "Jenis Kelamin      : " + jk + "\n"
                     + "No. Punggung         : " + nopung + "\n" + warna);
         }
-        //tvHasil.setText("Nomor Punggung :"+spNopung.getSelectedItem().toString());
     }
 
     public boolean isValid() {
