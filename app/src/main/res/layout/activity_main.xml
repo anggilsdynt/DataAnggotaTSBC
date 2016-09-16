@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:context="id.sch.smktelkom_mlg.tugas01.xiirpl3005.dataanggotatsbc.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="139dp"
+        android:layout_height="115dp"
+        android:src="@drawable/tsbc3"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telkom School Basketball Club"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        style="@style/Base.TextAppearance.AppCompat.Subhead"
+        android:textColor="#109edf" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pendaatan"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        style="@style/Base.TextAppearance.AppCompat.Subhead"
+        android:textColor="#109edf" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:id="@+id/textView3" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextNama" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin"
+        android:id="@+id/textView4" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioButtonLaki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#021982"
+            android:checked="false"
+            android:text="Laki-Laki"
+            android:textColor="#021982" />
+
+        <RadioButton
+            android:id="@+id/radioButtonPerempuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#021982"
+            android:checked="false"
+            android:text="Perempuan"
+            android:textColor="#021982" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No. Punggung"
+        android:id="@+id/textView5" />
+
+    <Spinner
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/nopung"
+        android:id="@+id/spinnerNopung" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Warna Jersey Saat ini"
+        android:id="@+id/textView6" />
+
+    <CheckBox
+        android:id="@+id/checkBoxMerah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#021982"
+        android:checked="false"
+        android:text="Merah" />
+
+    <CheckBox
+        android:id="@+id/checkBoxBiru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#021982"
+        android:checked="false"
+        android:text="Biru" />
+
+    <CheckBox
+        android:id="@+id/checkBoxHitam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#021982"
+        android:checked="false"
+        android:text="Hitam" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:id="@+id/buttonOK" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Anda : "
+        android:id="@+id/blaa" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   "
+        android:id="@+id/textViewHasil" />
+    </LinearLayout>
+ </ScrollView>
