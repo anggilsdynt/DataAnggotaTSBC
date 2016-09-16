@@ -49,10 +49,8 @@ public class MainActivity extends AppCompatActivity {
     private void doClick()
     {
         if (isValid()) {
-            //edit text
             String nama = isinama.getText().toString();
 
-            //radio button
             String jk = "(Not choosen)";
 
             if (rbL.isChecked()) {
@@ -61,10 +59,8 @@ public class MainActivity extends AppCompatActivity {
                 jk = rbP.getText().toString();
             }
 
-            //spinner
             String nopung = spNopung.getSelectedItem().toString();
 
-            //checkbox
             String warna = "Warna Jersey Saat Ini :\n";
             int startlen = warna.length();
             if (cbM.isChecked()) warna += cbM.getText() + "\n";
@@ -73,7 +69,6 @@ public class MainActivity extends AppCompatActivity {
 
             if (warna.length() == startlen) warna += "(No object was choosen)";
 
-            //hasil
             tvHasil.setText("Name        : " + nama + "\n" + "Jenis Kelamin      : " + jk + "\n"
                     + "No. Punggung         : " + nopung + "\n" + warna);
         }
