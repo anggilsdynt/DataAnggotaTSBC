@@ -1,11 +1,15 @@
 #DataAnggotaTSBC
 dibuat oleh :
 
-Anggi Lisdayanti / 05
+Nama    : Anggi Lisdayanti 
 
-XII RPL 3 / SMK Telkom Malang
+Absen   : 05
 
-4289/1187.063
+Kelas   : XII RPL 3
+
+NIS     : 4289/1187.063
+
+Sekolah : SMK Telkom Malang
 
 <h2>PENJELASAN</h2>
 Data Anggota TSBC berfungsi untuk menginputkan data siswa/siswa yang mengikuti CLub Basket Telkom School
