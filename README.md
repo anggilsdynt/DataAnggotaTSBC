@@ -1,5 +1,5 @@
 #DataAnggotaTSBC
-dibuat oleh :
+<b>Dibuat Oleh :</b>
 
 Nama    : Anggi Lisdayanti 
 
